@@ -144,7 +144,7 @@ const TextEditor: React.FC = () => {
   }
   return (
     
-    <div>
+    <div className='App'>
       <div className="panel">
         <div className="fontFamily">
           <label htmlFor="font-family">Font Family:</label>
@@ -156,7 +156,7 @@ const TextEditor: React.FC = () => {
             ))}
           </select>
         </div>
-        <div className="fontWeight">`
+        <div className="fontWeight">
           <label htmlFor="font-weight">Font Weight:</label>
           <select id="font-weight" value={fontWeight} onChange={handleFontWeightChange}>
             {fontWeightArray.map((variant : string) => (
@@ -175,11 +175,11 @@ const TextEditor: React.FC = () => {
 
       </div>
       <br/><br/><br/>
-        <textarea value={content} onChange={handleContentChange} id="textAreaId" className="textArea" style={{ fontFamily, fontWeight  , fontStyle: isItalic ? 'italic' : 'normal', width: '80%', height: '200px', marginLeft: '10%', fontSize:'20px'}} >
+        <textarea value={content} onChange={handleContentChange} id="textAreaId" className="textArea" style={{ fontFamily, fontWeight  , fontStyle: isItalic ? 'italic' : 'normal', width: '80%', height: '200px', marginLeft: '1%', fontSize:'20px'}} >
               
         </textarea>
       <div className="buttonSection">
-        <button type='submit' value="Submit" className='but'>Submit</button>
+        <button type='submit' value="Submit" className='but' onClick={resetText}>Submit</button>
         <button type='reset' value="Reset" className='but'  onClick={resetText} > Reset </button>
       </div>
     </div>
