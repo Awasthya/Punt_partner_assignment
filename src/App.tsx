@@ -9,7 +9,7 @@ interface FontData {
   };
 }
 
-const TextEditor: React.FC = () => {
+const App: React.FC = () => {
 
 
   
@@ -186,4 +186,4 @@ const TextEditor: React.FC = () => {
   );
 };
 
-export default TextEditor;
+export default App;
