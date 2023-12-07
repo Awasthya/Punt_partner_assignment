@@ -4,7 +4,7 @@
 This Project Is an Assesment Given by Punt Partner on text Editor. This Text editor take data for json file and make run time changes in page according to given font-family, font-weight , abnd if there is option ofor italic then it also enable option for italic.
 
 # Home Page 
-This is an home page .
+This is an home page.
 I didn't focus much on UI part mostly i focused on functionalities.   
 ![home](https://github.com/Awasthya/Punt_partner_assignment/assets/92320605/fe6e6b3b-d57b-4654-bed5-566bddee881d)
 
