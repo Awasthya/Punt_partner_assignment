@@ -25,3 +25,6 @@ To deploy this project run
 ```bash
   npm start
 ```
+
+
+I completed this project in less than 24 hours If I have more time i can make it more responsive and better UI.
